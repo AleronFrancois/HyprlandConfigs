@@ -1,0 +1,42 @@
+/* Global settings */
+* {
+    font-family: "Fira Code", monospace;
+    font-size: 12px;
+    color: #bd93f9; /* Dracula purple */
+    background: rgba(40, 42, 54, 0.6); /* dark grey, 60% opacity */
+    border-radius: 10px; /* rounded corners for bar */
+}
+
+/* Workspaces */
+#sway-workspaces {
+    background: rgba(98, 114, 164, 0.7); /* semi-transparent Dracula purple */
+    border-radius: 5px;
+    padding: 0 8px;
+    margin: 2px;
+}
+
+/* Clock */
+#clock {
+    padding: 0 12px;
+    font-weight: bold;
+}
+
+/* Battery */
+#battery {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* System tray */
+tray {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Hover effects */
+#sway-workspaces:hover,
+#clock:hover,
+#battery:hover {
+    background: rgba(68, 71, 90, 0.7);
+    border-radius: 5px;
+}

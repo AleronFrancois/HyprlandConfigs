@@ -1,0 +1,3 @@
+[wofi]
+show-icons=true
+css=/home/aleron/.config/wofi/style.css

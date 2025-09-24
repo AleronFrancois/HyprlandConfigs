@@ -1,0 +1,57 @@
+* {
+    font-family: monospace;
+}
+
+/* Make the whole window transparent */
+window {
+    background-color: rgba(124, 129, 140, 0.6); /* light grey with 60% opacity */
+    backdrop-filter: blur(10px); /* optional blur for nicer effect */
+}
+
+/* Input box */
+#input {
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+    background-color: rgba(56, 60, 74, 0.6);
+    color: white;
+}
+
+/* Inner box */
+#inner-box {
+    background-color: rgba(56, 60, 74, 0.6);
+}
+
+/* Outer box */
+#outer-box {
+    margin: 5px;
+    padding: 20px;
+    background-color: rgba(56, 60, 74, 0.6);
+}
+
+/* Scrollbar (optional styling) */
+#scroll {
+    /* You can add transparency if you style the scrollbar */
+}
+
+/* Text */
+#text {
+    padding: 5px;
+    color: white;
+}
+
+/* Alternate entries */
+#entry:nth-child(even) {
+    background-color: rgba(64, 69, 82, 0.6);
+}
+
+/* Selected entry */
+#entry:selected {
+    background-color: rgba(189, 147, 249, 0.8);
+}
+
+/* Selected text */
+#text:selected {
+    color: white;
+}

@@ -1,0 +1,17 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["sway/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["battery"],
+
+  "clock": {
+    "format": "{:%a %d %b %H:%M}",
+    "tooltip": false
+  },
+
+  "battery": {
+    "format": "⚡{capacity}%",
+    "tooltip": true
+  }
+}
