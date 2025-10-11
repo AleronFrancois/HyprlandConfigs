@@ -1,0 +1,60 @@
+{
+    // Theme and basic UI
+    "workbench.colorTheme": "Tokyo Night Dark",
+    "window.menuBarVisibility": "compact",
+    "workbench.statusBar.visible": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    
+    "editor.fontFamily": "CaskaydiaMono Nerd Font, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+    "terminal.integrated.fontSize": 15,
+
+
+    // Editor settings
+    "editor.lineNumbers": "off",
+    "editor.guides.indentation": false,
+    "editor.links": false,
+    "editor.hover.enabled": true, // keeps hover info like types
+    "editor.inlayHints.enabled": "off",
+    "editor.codeLens": false,
+    "editor.stablePeek": false,
+    "editor.indentSize": "tabSize",
+
+    // Accessibility
+    "accessibility.underlineLinks": false,
+
+    // Rust Analyzer settings
+    "rust-analyzer.codelens.enable": false,
+    "rust-analyzer.codelens.references.enable": false,
+    "rust-analyzer.codelens.implementations.enable": false,
+    "rust-analyzer.lens.debug.enable": false,
+    "rust-analyzer.lens.run.enable": false,
+    "rust-analyzer.hover.links.enable": false,
+    "rust-analyzer.hover.actions.enable": false,
+
+    // Git
+    "git.autofetch": true,
+
+    // Extensions specific settings (optional)
+    "github.copilot.editor.enableAutoCompletions": false,
+
+    // Remote / SSHFS
+    "remote.SSH.remotePlatform": {},
+    "sshfs.configs": [],
+    "rust-analyzer.semanticHighlighting.doc.comment.inject.enable": false,
+    "rust-analyzer.semanticHighlighting.nonStandardTokens": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.startupEditor": "none",
+    "editor.lightbulb.enabled": "off",
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false,
+    "rust-analyzer.workspace.discoverConfig": null
+}
